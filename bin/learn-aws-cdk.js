@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const cdk = require('@aws-cdk/core');
-const { LearnAwsCdkStack } = require('../lib/learn-aws-cdk-stack');
+import * as cdk from '@aws-cdk/core'
+import { LearnAwsCdkStack } from '../lib/learn-aws-cdk-stack.js'
 
 const app = new cdk.App();
 new LearnAwsCdkStack(app, 'LearnAwsCdkStack', {

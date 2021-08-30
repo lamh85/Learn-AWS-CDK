@@ -4,6 +4,7 @@
   "bin": {
     "learn-aws-cdk": "bin/learn-aws-cdk.js"
   },
+  "type": "module",
   "scripts": {
     "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
     "cdk": "cdk",
@@ -15,6 +16,7 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-s3": "^1.120.0",
     "@aws-cdk/core": "1.120.0"
   }
 }
